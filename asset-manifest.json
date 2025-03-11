@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/VinodDigitalSpace/about/static/css/main.e6c13ad2.css",
-    "main.js": "/VinodDigitalSpace/about/static/js/main.8e1b3c6b.js",
-    "static/js/488.21a3b654.chunk.js": "/VinodDigitalSpace/about/static/js/488.21a3b654.chunk.js",
-    "service-worker.js": "/VinodDigitalSpace/about/service-worker.js",
-    "index.html": "/VinodDigitalSpace/about/index.html",
-    "main.e6c13ad2.css.map": "/VinodDigitalSpace/about/static/css/main.e6c13ad2.css.map",
-    "main.8e1b3c6b.js.map": "/VinodDigitalSpace/about/static/js/main.8e1b3c6b.js.map",
-    "488.21a3b654.chunk.js.map": "/VinodDigitalSpace/about/static/js/488.21a3b654.chunk.js.map"
+    "main.css": "/VinodDigitalSpace/static/css/main.e6c13ad2.css",
+    "main.js": "/VinodDigitalSpace/static/js/main.e739fc63.js",
+    "static/js/488.21a3b654.chunk.js": "/VinodDigitalSpace/static/js/488.21a3b654.chunk.js",
+    "service-worker.js": "/VinodDigitalSpace/service-worker.js",
+    "index.html": "/VinodDigitalSpace/index.html",
+    "main.e6c13ad2.css.map": "/VinodDigitalSpace/static/css/main.e6c13ad2.css.map",
+    "main.e739fc63.js.map": "/VinodDigitalSpace/static/js/main.e739fc63.js.map",
+    "488.21a3b654.chunk.js.map": "/VinodDigitalSpace/static/js/488.21a3b654.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.8e1b3c6b.js"
+    "static/js/main.e739fc63.js"
   ]
 }
