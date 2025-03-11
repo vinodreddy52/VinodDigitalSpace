@@ -10,7 +10,7 @@ import { Box } from "@mui/material";
 import ScrollToTopButton from "./Pages/ScrollToTopButton";
 
 const App = () => (
-  <Router>
+  <Router basename="/VinodDigitalSpace">
     <Navbar />
     <Box sx={{ mt: 2 }}>
       <Routes>
@@ -20,7 +20,7 @@ const App = () => (
         <Route path="/publish" element={<Publish />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <ScrollToTopButton/>
+      <ScrollToTopButton />
     </Box>
   </Router>
 );
