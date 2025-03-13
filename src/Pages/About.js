@@ -10,12 +10,21 @@ export default function About() {
     {
       icon: <Info fontSize="large" color="primary" />, 
       title: "Summary",
-      content: "Passionate UI Developer with expertise in React, JavaScript, and modern web technologies. Dedicated to crafting intuitive and engaging user experiences."
+      content: <>
+      Passionate <strong>Senior UI Developer</strong> with extensive experience in <strong>React, JavaScript,</strong> and modern web technologies.  
+      Skilled in building <strong>scalable, high-performance,</strong> and visually appealing web applications.  
+      Dedicated to crafting <strong>intuitive, user-friendly interfaces</strong> with a keen eye for <strong>design and accessibility</strong>.  
+      Strong problem-solver, team player, and advocate for <strong>best practices</strong> in front-end development.
+    </>
     },
     {
       icon: <School fontSize="large" color="primary" />, 
       title: "Education",
-      content: "Bachelor's Degree in Computer Science from XYZ University."
+      content: <>
+      <strong>BE Electronics and Communication Engineering</strong> <br />
+      Excel Engineering College <br />
+      from <strong>Anna University of Technology Coimbatore, TN.</strong>
+    </>
     }
   ];
 
@@ -42,7 +51,7 @@ export default function About() {
       {/* Hero Section */}
       <Grid container spacing={4} alignItems="center">
         <Grid item xs={12} md={4} display="flex" justifyContent="center">
-          <Avatar src="/images/profile.jpg" sx={{ width: 180, height: 180, boxShadow: 3 }} />
+          <Avatar src="/images/VinodReddy.jpeg" sx={{ width: 180, height: 180, boxShadow: 3 }} />
         </Grid>
         <Grid item xs={12} md={8}>
           <Typography variant="h4" fontWeight="bold" color="primary">Hi, I'm Vinod Kumar Reddy</Typography>

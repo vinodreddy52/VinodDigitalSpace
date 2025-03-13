@@ -14,34 +14,42 @@ const skills = [
 
 export default function Skills() {
   return (
-    <Container maxWidth="lg" sx={{ paddingTop: "90px" }} >
-      <Typography variant="h4" fontWeight="bold" color="primary" gutterBottom>
+    <Container maxWidth="lg" sx={{ paddingTop: "90px", minHeight: "100vh" }}>
+      <Typography variant="h4" fontWeight="bold" color="primary" gutterBottom sx={{ textAlign: "center", mb: 4 }}>
         Technical Skills
       </Typography>
-      <Grid container spacing={3}>
+
+      <Grid container spacing={4}>
         {skills.map((skill, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card
               sx={{
-                p: 2,
-                borderRadius: 3,
-                boxShadow: 5,
+                p: 3,
+                borderRadius: 4,
+                boxShadow: "0px 8px 24px rgba(0, 0, 0, 0.2)",
                 textAlign: "center",
-                background: "rgba(255, 255, 255, 0.1)",
+                background: "linear-gradient(135deg, rgba(255,255,255,0.2), rgba(255,255,255,0.05))",
                 backdropFilter: "blur(10px)",
-                transition: "transform 0.3s ease-in-out",
-                '&:hover': { transform: "scale(1.05)" }
+                border: "1px solid rgba(255,255,255,0.2)",
+                transition: "transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out",
+                "&:hover": { transform: "scale(1.05)", boxShadow: "0px 12px 30px rgba(0, 0, 0, 0.3)" }
               }}
             >
               <CardContent>
-                <Box sx={{ fontSize: 40, color: "primary.main", mb: 2 }}>{skill.icon}</Box>
-                <Typography variant="h6" fontWeight="bold" gutterBottom>
+                <Box sx={{ fontSize: 48, color: "primary.main", mb: 2 }}>{skill.icon}</Box>
+                <Typography variant="h6" fontWeight="bold" color="textPrimary" gutterBottom>
                   {skill.category}
                 </Typography>
                 {skill.skills.map((item, i) => (
                   <Box key={i} display="flex" alignItems="center" gap={1} sx={{ mb: 1 }}>
-                    <Typography variant="body2" fontWeight="bold">{item}</Typography>
-                    <LinearProgress variant="determinate" value={Math.random() * (100 - 70) + 70} sx={{ flexGrow: 1, height: 6, borderRadius: 5 }} />
+                    <Typography variant="body2" fontWeight="bold" sx={{ width: "30%" }}>
+                      {item}
+                    </Typography>
+                    <LinearProgress 
+                      variant="determinate" 
+                      value={Math.random() * (100 - 70) + 70} 
+                      sx={{ flexGrow: 1, height: 8, borderRadius: 5, bgcolor: "rgba(255, 255, 255, 0.2)", "& .MuiLinearProgress-bar": { background: "linear-gradient(90deg, #6200ea, #8e24aa)" } }}
+                    />
                   </Box>
                 ))}
               </CardContent>
