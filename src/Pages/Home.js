@@ -15,7 +15,7 @@ export default function Home() {
     setLoading(true);
     setTimeout(() => {
       const link = document.createElement("a");
-      link.href = "/VinodReddy_Resume.pdf";
+      link.href = "/VinodReddy_Resume_r.pdf";
       link.setAttribute("download", "VinodReddy_Resume.pdf");
       document.body.appendChild(link);
       link.click();
