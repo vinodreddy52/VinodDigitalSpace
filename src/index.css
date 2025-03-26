@@ -15,3 +15,11 @@ code {
   text-decoration: none;
   color: #fff;
 }
+.react-pdf__Page__textContent.textLayer, .react-pdf__Page__annotations.annotationLayer {
+  display: none;
+}
+.dialog_title {
+  background: #1976d2;
+  color: #fff;
+  padding: 6px 20px !important;
+}
