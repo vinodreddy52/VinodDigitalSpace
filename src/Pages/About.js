@@ -36,7 +36,7 @@ export default function About() {
     },
     {
       title: "Software Engineer",
-      company: "Gigame InfoTech Solutions Pvt Ltd, Chennai",
+      company: "Edgerock Software Solutions Private Limited, Hyderabad",
       date: "Mar 2015 - Sep 2017",
     },
     {
