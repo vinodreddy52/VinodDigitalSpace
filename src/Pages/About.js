@@ -32,7 +32,7 @@ export default function About() {
     {
       title: "Senior UI Developer",
       company: "Solverminds Solutions and Technologies Pvt Ltd, Chennai",
-      date: "Sep 2017 - Present",
+      date: "Sep 2017 - July 2025",
     },
     {
       title: "Software Engineer",
