@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { 
   AppBar, Toolbar, Typography, Button, IconButton, Drawer, List, ListItem, ListItemText, useMediaQuery,
-  Tooltip, Box
+  Tooltip, 
 } from "@mui/material";
 import { Menu as MenuIcon, Close as CloseIcon, LightMode, DarkMode } from "@mui/icons-material";
 import { Link } from "react-router-dom";

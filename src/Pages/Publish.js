@@ -110,7 +110,7 @@ const Publish = () => {
               sx={{
                 height: '100%',
                 display: 'flex',
-                flexDirection: 'column',
+                flexDirection: 'column', 
                 borderRadius: 3,
                 boxShadow: 3,
                 background: "var(--card-bg)",

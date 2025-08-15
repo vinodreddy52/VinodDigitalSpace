@@ -10,9 +10,9 @@ import {
   Avatar,
   Fade,
   Grow,
-  Paper,
+  //Paper,
   Divider,
-  LinearProgress
+  //LinearProgress
 } from "@mui/material";
 import { 
   Code, 
@@ -22,11 +22,11 @@ import {
   Devices, 
   Brush, 
   Cloud,
-  Star,
-  TrendingUp,
-  Psychology,
-  Palette,
-  Speed
+  // Star,
+  // TrendingUp,
+  // Psychology,
+  // Palette,
+  // Speed
 } from "@mui/icons-material";
 
 const skills = [
