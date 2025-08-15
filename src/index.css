@@ -1,3 +1,19 @@
+:root {
+  /* Light theme variables (default) */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --text-primary: #000000;
+  --text-secondary: #666666;
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --card-bg-hover: rgba(255, 255, 255, 1);
+  --border-color: rgba(0, 0, 0, 0.1);
+  --navbar-bg: #6200ea;
+  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --card-shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.15);
+  --divider-opacity: 0.3;
+  --backdrop-blur: blur(10px);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,21 +21,73 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 .tech_hub {
   text-decoration: none;
   color: #fff;
 }
+
 .react-pdf__Page__textContent.textLayer, .react-pdf__Page__annotations.annotationLayer {
   display: none;
 }
+
 .dialog_title {
   background: #1976d2;
   color: #fff;
   padding: 6px 20px !important;
+}
+
+/* Theme-aware card styles */
+.theme-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+  box-shadow: var(--card-shadow);
+}
+
+.theme-card:hover {
+  background-color: var(--card-bg-hover);
+  box-shadow: var(--card-shadow-hover);
+}
+
+/* Theme-aware text styles */
+.theme-text-primary {
+  color: var(--text-primary);
+}
+
+.theme-text-secondary {
+  color: var(--text-secondary);
+}
+
+/* Theme-aware background styles */
+.theme-bg-primary {
+  background-color: var(--bg-primary);
+}
+
+.theme-bg-secondary {
+  background-color: var(--bg-secondary);
+}
+
+/* Theme-aware border styles */
+.theme-border {
+  border-color: var(--border-color);
+}
+
+/* Theme-aware divider styles */
+.theme-divider {
+  opacity: var(--divider-opacity);
+}
+
+/* Theme-aware backdrop filter */
+.theme-backdrop {
+  backdrop-filter: var(--backdrop-blur);
 }
