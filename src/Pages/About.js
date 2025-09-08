@@ -34,11 +34,11 @@ export default function About() {
       company: "Solverminds Solutions and Technologies Pvt Ltd, Chennai",
       date: "Sep 2017 - July 2025",
     },
-    {
-      title: "Software Engineer",
-      company: "Edgerock Software Solutions Private Limited, Hyderabad",
-      date: "Mar 2015 - Sep 2017",
-    },
+    // {
+    //   title: "Software Engineer",
+    //   company: "Edgerock Software Solutions Private Limited, Hyderabad",
+    //   date: "Mar 2015 - Sep 2017",
+    // },
     {
       title: "Consultant-Media Developer",
       company: "Hurix Systems Pvt Ltd, Chennai",
