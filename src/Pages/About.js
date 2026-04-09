@@ -11,7 +11,7 @@ export default function About() {
       icon: <Info fontSize="large" color="primary" />, 
       title: "Summary",
       content: <>
-      Passionate <strong>Senior UI Developer</strong> with extensive experience in <strong>React, JavaScript,</strong> and modern web technologies.  
+      Passionate <strong>Technical Lead</strong> with extensive experience in <strong>React, JavaScript,</strong> and modern web technologies.  
       Skilled in building <strong>scalable, high-performance,</strong> and visually appealing web applications.  
       Dedicated to crafting <strong>intuitive, user-friendly interfaces</strong> with a keen eye for <strong>design and accessibility</strong>.  
       Strong problem-solver, team player, and advocate for <strong>best practices</strong> in front-end development.
@@ -29,6 +29,11 @@ export default function About() {
   ];
 
   const experienceData = [
+    {
+      title: "Technical Lead ",
+      company: "Photon Interactive Pvt Ltd, Chennai",
+      date: "Sep 2025 - Present",
+    },
     {
       title: "Senior UI Developer",
       company: "Solverminds Solutions and Technologies Pvt Ltd, Chennai",
@@ -55,7 +60,7 @@ export default function About() {
         </Grid>
         <Grid item xs={12} md={8}>
           <Typography variant="h4" fontWeight="bold" color="primary">Hi, I'm Vinod Kumar Reddy</Typography>
-          <Typography variant="h6" color="text.secondary">Senior UI Developer</Typography>
+          <Typography variant="h6" color="text.secondary">Technical Lead</Typography>
           <Typography variant="body1" sx={{ mt: 2 }}>
             Transforming ideas into seamless digital experiences with modern technologies.
           </Typography>
