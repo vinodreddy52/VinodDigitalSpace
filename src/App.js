@@ -7,6 +7,7 @@ import Skills from "./Pages/Skills";
 import Publish from "./Pages/Publish";
 import Contact from "./Pages/Contact";
 import { Box } from "@mui/material";
+import "./App.css";
 import ScrollToTopButton from "./Pages/ScrollToTopButton";
 
 const App = () => (
